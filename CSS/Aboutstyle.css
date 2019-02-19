@@ -1,0 +1,84 @@
+body{
+width:100%;
+margin:0;
+font-family:sans-serif;
+font-size:14px;
+}
+.navbar{
+background-color:#333;
+width:100%;
+overflow: hidden;
+}
+.navbar li{
+list-style:none;
+font-weight:bold;
+font-size:16px;
+}
+.navbar li a{
+text-decoration:none;
+display:inline-block;
+float:left;
+padding:14px  16px 14px 0;
+}
+.navbar a:hover{
+background:#ddd;
+}
+.navbar a.active{
+background:red;
+}
+.header{
+        background-color: #f1f1f1;
+        padding:20px;
+        text-align: center;
+width:100%;
+    }
+.column1 h2{
+line-height:21px;
+}
+.column1 h2{
+line-height:21px;
+}
+.column1{
+        float: left;
+width:20%;
+ padding: 10px;
+margin-left:10px;
+line-height:21px;
+    }
+    .column2{
+height:720px;
+width:50%;
+background-image:url("../images/Theo2.jpg");
+background-size:cover;
+background-repeat:none;
+float:left;
+    }
+.column3{
+width:25%;
+float:left;
+padding:10px;
+margin-left:10px;
+line-height:21px;
+}
+    @media screen and (max-width: 600px) {
+.column1 .column2 .column3{
+width:100 %;
+}
+}
+ @media screen and (max-width: 500px) {
+.column1 .column2 .column3{
+width:100 %;
+}
+}
+ @media screen and (max-width: 400px) {
+.column1 .column2 .column3{
+width:100 %;
+}
+}
+ @media screen and (max-width: 300px) {
+.column1 .column2 .column3{
+width:100 %;
+}
+}
+
+

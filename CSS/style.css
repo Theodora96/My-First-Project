@@ -1,0 +1,59 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+#main{
+width:100%;
+height:1000px;
+background-image:url("../images/Theo3.jpg");
+height:1000px;
+background-repeat:no-repeat;
+background-size:cover;
+}
+ul{
+float:right;
+background-color:#696969;
+margin:0;
+}
+
+ul li{
+list-style:none;
+line-height:80px;
+}
+ul li a{
+text-decoration:none;
+color:#f1f1f1;
+padding:30px;
+}
+ul li a:hover{
+background-color:red;
+}
+p{
+font-size:14px;
+font-family:Verdana;
+color:red;
+text-transform:uppercase;
+letter-spacing:3px;
+}
+@media(max-width:600px){
+#main{
+width:100%;
+background-size:contain;
+}
+@media(max-width:500px){
+#main{
+width:100%;
+background-size:contain;
+}
+@media(max-width:400px){
+#main{
+width:100%;
+background-size:contain;
+}
+@media(max-width:300px){
+#main{
+width:100%;
+background-size:contain;
+}
+}
